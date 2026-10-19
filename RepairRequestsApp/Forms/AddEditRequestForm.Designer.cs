@@ -1,4 +1,4 @@
-﻿namespace RepairRequestsApp.Forms
+namespace RepairRequestsApp.Forms
 {
     partial class AddEditRequestForm
     {
@@ -63,7 +63,6 @@
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             
-            // groupBox1
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtRoomNumber);
             this.groupBox1.Controls.Add(this.label2);
@@ -79,7 +78,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Основная информация";
             
-            // label1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(15, 30);
             this.label1.Name = "label1";
@@ -87,13 +85,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Номер помещения:";
             
-            // txtRoomNumber
             this.txtRoomNumber.Location = new System.Drawing.Point(160, 27);
             this.txtRoomNumber.Name = "txtRoomNumber";
             this.txtRoomNumber.Size = new System.Drawing.Size(380, 23);
             this.txtRoomNumber.TabIndex = 1;
             
-            // label2
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(15, 65);
             this.label2.Name = "label2";
@@ -101,14 +97,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Описание проблемы:";
             
-            // txtDescription
             this.txtDescription.Location = new System.Drawing.Point(160, 62);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(380, 60);
             this.txtDescription.TabIndex = 3;
             
-            // label3
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(15, 135);
             this.label3.Name = "label3";
@@ -116,13 +110,11 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Заявитель:";
             
-            // txtRequestedBy
             this.txtRequestedBy.Location = new System.Drawing.Point(160, 132);
             this.txtRequestedBy.Name = "txtRequestedBy";
             this.txtRequestedBy.Size = new System.Drawing.Size(380, 23);
             this.txtRequestedBy.TabIndex = 5;
             
-            // label4
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(15, 170);
             this.label4.Name = "label4";
@@ -130,12 +122,11 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Контактный телефон:";
             
-            // txtContactPhone
             this.txtContactPhone.Location = new System.Drawing.Point(160, 167);
             this.txtContactPhone.Name = "txtContactPhone";
             this.txtContactPhone.Size = new System.Drawing.Size(380, 23);
-            this.txtContactPhone.TabIndex = 7;            
-            // groupBox2
+            this.txtContactPhone.TabIndex = 7;
+            
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.dtpRequestDate);
             this.groupBox2.Controls.Add(this.label6);
@@ -153,7 +144,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Дополнительная информация";
             
-            // label5
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(15, 30);
             this.label5.Name = "label5";
@@ -161,14 +151,12 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Дата заявки:";
             
-            // dtpRequestDate
             this.dtpRequestDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpRequestDate.Location = new System.Drawing.Point(160, 27);
             this.dtpRequestDate.Name = "dtpRequestDate";
             this.dtpRequestDate.Size = new System.Drawing.Size(200, 23);
             this.dtpRequestDate.TabIndex = 1;
             
-            // label6
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(15, 65);
             this.label6.Name = "label6";
@@ -176,7 +164,6 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "Статус:";
             
-            // cmbStatus
             this.cmbStatus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbStatus.FormattingEnabled = true;
             this.cmbStatus.Items.AddRange(new object[] {
@@ -190,7 +177,6 @@
             this.cmbStatus.Size = new System.Drawing.Size(200, 23);
             this.cmbStatus.TabIndex = 3;
             
-            // label7
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(15, 100);
             this.label7.Name = "label7";
@@ -198,7 +184,6 @@
             this.label7.TabIndex = 4;
             this.label7.Text = "Приоритет:";
             
-            // cmbPriority
             this.cmbPriority.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbPriority.FormattingEnabled = true;
             this.cmbPriority.Items.AddRange(new object[] {
@@ -212,7 +197,6 @@
             this.cmbPriority.Size = new System.Drawing.Size(200, 23);
             this.cmbPriority.TabIndex = 5;
             
-            // chkCompleted
             this.chkCompleted.AutoSize = true;
             this.chkCompleted.Location = new System.Drawing.Point(15, 135);
             this.chkCompleted.Name = "chkCompleted";
@@ -222,7 +206,6 @@
             this.chkCompleted.UseVisualStyleBackColor = true;
             this.chkCompleted.CheckedChanged += new System.EventHandler(this.chkCompleted_CheckedChanged);
             
-            // dtpCompletionDate
             this.dtpCompletionDate.Enabled = false;
             this.dtpCompletionDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpCompletionDate.Location = new System.Drawing.Point(160, 132);
@@ -230,7 +213,6 @@
             this.dtpCompletionDate.Size = new System.Drawing.Size(200, 23);
             this.dtpCompletionDate.TabIndex = 7;
             
-            // label8
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(15, 170);
             this.label8.Name = "label8";
@@ -238,14 +220,12 @@
             this.label8.TabIndex = 8;
             this.label8.Text = "Примечания:";
             
-            // txtNotes
             this.txtNotes.Location = new System.Drawing.Point(160, 167);
             this.txtNotes.Multiline = true;
             this.txtNotes.Name = "txtNotes";
             this.txtNotes.Size = new System.Drawing.Size(380, 60);
             this.txtNotes.TabIndex = 9;
             
-            // btnSave
             this.btnSave.Location = new System.Drawing.Point(340, 475);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(110, 35);
@@ -254,7 +234,6 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             
-            // btnCancel
             this.btnCancel.Location = new System.Drawing.Point(460, 475);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(110, 35);
@@ -263,7 +242,6 @@
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             
-            // AddEditRequestForm
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 522);
