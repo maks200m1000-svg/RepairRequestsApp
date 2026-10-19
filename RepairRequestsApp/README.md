@@ -1,32 +1,18 @@
-# Программа для сбора заявок на ремонт помещения
+# Repair Requests App
 
-Приложение на C# + Windows Forms для сбора заявок на ремонт помещения
+Application for managing repair requests in buildings.
 
-Структура проекта
-RepairRequestsApp/
-Models/
-RepairRequest.cs - Заявки на ремонт
-Services/
-DatabaseService.cs - Сервис работы с БД
-Forms/
-MainForm.cs - Главная форма приложения
-MainForm.Designer.cs - Дизайнер главной формы
-AddEditRequestForm.cs - Форма добавления/редактирования
-AddEditRequestForm.Designer.cs
-Program.cs - Точка входа приложения
+## Technology Stack
 
-## Технологии
+- .NET 10.0 Windows Forms
+- SQLite
+- Dapper
+- System.Data.SQLite.Core
 
-* **.NET 10.0** - Windows Forms приложение
-* **SQLite** - легковесная встроенная база данных
-* **Dapper** - микро-ORM для работы с БД
-* **System.Data.SQLite.Core** - ADO.NET провайдер для SQLite
+## Database
 
-## База данных
+RepairRequests.db
 
-База данных **RepairRequests.db**
+## Author
 
-## Автор Гриценко Максим
-
-Создано для управления заявками на ремонт помещений
-
+Maksim Gritsenko
