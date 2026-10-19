@@ -1,18 +1,18 @@
-# Repair Requests App
+# Программа для сбора заявок на ремонт помещения
 
-Application for managing repair requests in buildings.
+Приложение для управления заявками на ремонт в зданиях.
 
-## Technology Stack
+## Технологии
 
 - .NET 10.0 Windows Forms
 - SQLite
 - Dapper
 - System.Data.SQLite.Core
 
-## Database
+## База данных
 
 RepairRequests.db
 
-## Author
+## Автор
 
-Maksim Gritsenko
+Максим Гриценко
